@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversor</string>
+    <string name="conversor">Conversor</string>
+    <string name="Llista_Resultats">Lista de resultados</string>
+
+    <string name="Segons_TV">Segundos</string>
+    <string name="Minuts_TV">Minutos</string>
+    <string name="Hores_TV">Horas</string>
+    <string name="Anys_TV">Años</string>
+</resources>

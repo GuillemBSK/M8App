@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">AppM8</string>
+    <string name="app_name">Conversor</string>
     <string name="conversor">Conversor</string>
+    <string name="Llista_Resultats">Llista de resultats</string>
+
+    <string name="Segons_TV">Segons</string>
+    <string name="Minuts_TV">Minuts</string>
+    <string name="Hores_TV">Hores</string>
+    <string name="Anys_TV">Anys</string>
 </resources>
