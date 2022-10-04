@@ -29,6 +29,7 @@
             android:textSize="24sp" />
 
         <LinearLayout
+            android:id="@+id/LayoutValor"
             android:layout_width="match_parent"
             android:layout_height="71dp"
             android:layout_marginLeft="20px"
@@ -36,7 +37,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/ValorTextField"
                 android:layout_width="420dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -46,7 +47,7 @@
                 android:text="Valor" />
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/ValorSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_weight="1"
@@ -56,6 +57,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/LayoutResultats"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20px"
@@ -68,7 +70,7 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/TitolResultats"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -83,6 +85,7 @@
                 android:layout_weight="1" />
 
             <LinearLayout
+                android:id="@+id/LayoutSegons"
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:layout_weight="1"
@@ -111,6 +114,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/LayoutMinuts"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_weight="1"
@@ -136,6 +140,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/LayoutHores"
                 android:layout_width="match_parent"
                 android:layout_height="62dp"
                 android:layout_weight="1"
@@ -161,6 +166,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/LayoutAnys"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_weight="1"
@@ -190,16 +196,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="14dp"
-            android:layout_weight="1">
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20px"
-                android:layout_marginRight="20px"
-                android:text="Button" />
-        </FrameLayout>
+            android:layout_weight="1"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
