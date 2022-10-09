@@ -43,8 +43,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:minHeight="48dp"
-                android:text="@string/app_name" />
+                android:minHeight="48dp" />
 
             <Spinner
                 android:id="@+id/ValorSpinner"
@@ -92,7 +91,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editTextNumber5"
+                    android:id="@+id/editTextSegons"
                     style="@style/Widget.AppCompat.EditText"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
@@ -196,7 +195,16 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="14dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/ButtonAsset_foreground"
+                android:text="Botó inútil" />
+
+        </FrameLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
